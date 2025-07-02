@@ -1,0 +1,74 @@
+# --------------
+# -- Settings --
+# --------------
+
+title: Lisa Ferosa Ahmed
+description: >-
+  Add description
+baseurl: ""
+url: "https://lisa-ferosa.github.io"
+
+# Compressed with TinyPNG
+images:
+  sample_image: "/images/add_images_to_a_folder"
+
+about:
+  - >
+      Write up a short blurb about yourself
+
+featured:
+  - title: "Show a featured project"
+    images: 
+      - "/images/include_images_here_to_scroll_through"
+    text: >
+      Give a brief 1 sentence summary of the project
+      
+      * List and highlight features here
+      
+      * And here
+
+      * And also here
+
+work:
+  - company: "Company"
+    role: "Your title"
+    years: "2020-2024"
+    description: >
+      * Basically you can put your resume here
+
+      * With all your bullet points
+
+      * And any extra info you want to fit here that you cant on your resume
+
+education: >
+  <b>Bachelor of Your Degree</b><br>
+  Any Honors or Titles<br>
+  August 2022<br>
+
+footer:
+  - name: "GitHub"
+    link: "https://github.com/lisa-ferosa"
+
+  - name: "LinkedIn"
+    link: "https://www.linkedin.com/in/lisa-ahmed"
+
+  - name: "Resume"
+    link: "/assets/add_your_resume_here"
+
+  # - name: "Other Links"
+  #   link: "other links here"
+
+# Build settings
+theme: minima
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
