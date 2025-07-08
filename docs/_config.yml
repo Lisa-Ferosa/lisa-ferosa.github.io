@@ -10,7 +10,8 @@ url: "https://lisa-ferosa.github.io"
 
 # Compressed with TinyPNG
 images:
-  sample_image: "/images/add_images_to_a_folder"
+  favicon: "/images/favicon.ico"
+  hero: "/images/profile.png"
 
 about:
   - >
@@ -25,7 +26,7 @@ about:
 featured:
   - title: "COOP Fellowship Capstone Project"
     images: 
-      - "/images/include_images_here_to_scroll_through"
+      - "/images/coop.png"
     text: >
       Collaborated with teams of 4 to 16 members to collect, clean, and analyze marketing performance data for a
       telecommunications client, driving data-informed decision&#8209;making.
@@ -65,15 +66,21 @@ work:
       helping students achieve academic&nbsp;goals.
 
 education:
-  - >
+  - link: "https://coopcareers.org/"
+    image: "/images/coop.png"
+    name: "COOP Careers"
+    info: >
      <b>Data Analytics Fellow</b><br>
-      * Engaged in a highly selective 16-week fellowship program, acquiring expertise in data cleaning, transformation, analysis, and
+      Engaged in a highly selective 16-week fellowship program, acquiring expertise in data cleaning, transformation, analysis, and
       visualization using Excel, SQL, and Tableau, alongside continuous professional&nbsp;development.<br>
-      * 200 hours of instruction time with a hands-on mastery of data tools, communication training, networking, and client
+      200 hours of instruction time with a hands-on mastery of data tools, communication training, networking, and client
       work with actual&nbsp;companies.<br>
       June 2025<br>
       
-  - >
+  - link: "https://www.ccny.cuny.edu/"
+    image: "/images/ccny.png"
+    name: "CUNY The City College of New York"
+    info: >
       <b>Bachelor of Arts in&nbsp;History</b><br>
       Minor in Secondary Education for Social&nbsp;Studies<br>
       August 2022<br>

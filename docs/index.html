@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+
+<section class="about" id="about">
+  <div class="text-center">
+    <h3>◇ About Me ◇</h3>
+  </div>
+  <div class="container">
+    {% for text in site.about %}
+    {{ text | markdownify }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="featured" id="featured">
+  <div class="text-center">
+    <h3>◇ Featured Work ◇</h3>
+  </div>
+  <div class="container">
+    {% for project in site.featured %}
+    <div class="project row align-items-center justify-content-around">
+      {% assign align = forloop.index | modulo:2 %}
+      {% if align == 1 %}
+      <div class="col-6 no-tablet">
+        <h4>{{ project.title }}</h4>
+        {{ project.text | markdownify }}
+      </div>
+      {% endif %}
+      <div class="col tablet">
+        <h4>{{ project.title }}</h4>
+        {{ project.text | markdownify }}
+      </div>
+      <div class="col carousel-col">
+        <div class="carousel">
+          {% for image in project.images %}
+          <div class="carousel-cell">
+            <a href="{{ image }}" target="_blank">
+              <img src="{{ image }}" alt="{{project.title}}">
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% if align == 0 %}
+      <div class="col-6 no-tablet">
+        <h4>{{ project.title }}</h4>
+        {{ project.text | markdownify }}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="work" id="work">
+  <div class="text-center">
+    <h3>◇ Work History ◇</h3>
+  </div>
+  <div class="container">
+    {% for job in site.work %}
+    <div class="job">
+      <h4>{{ job.role }}</h4>
+      <h5>{{ job.company }}</h5>
+      <h5>{{ job.years }}</h5>
+      <div class="desc">
+        {{ job.description | markdownify }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="education" id="education">
+  <div class="text-center">
+    <h3>◇ Education ◇</h3>
+  </div>
+  <div class="container">
+    {% for place in site.education %}
+    <div class="place">
+      <a href="{{ place.link }}" target="_blank">
+        <img src="{{ place.image }}" alt="{{ place.name }}">
+      </a>
+      {{ place.info | markdownify }}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="certification" id="certification">
+  <div class="text-center">
+    <h3>◇ Certification ◇</h3>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      {% for button in site.certification %}
+      <div class="col button">
+        <a href="{{ button.link }}" target="_blank">{{ button.name }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
