@@ -342,10 +342,19 @@ li {
 .footer {
   @include section($bg: $tan);
   text-align: center;
-  padding-bottom: 6rem !important;
+  padding-bottom: 0 !important;
 }
 
 .footer .col {
   flex: 0 0 auto;
   width: 8rem; 
+}
+
+.footer-img {
+  max-width: 10rem;
+  padding-top: 20rem;
+  margin: 4rem auto 0.5rem;
+  background-image: url("/images/korok.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
