@@ -4,7 +4,7 @@
 
 title: Lisa Ferosa Ahmed
 description: >-
-  Add description
+  Data Analytics Alumni @ COOP | Teacher/Mentor at Fusion Academy Brooklyn
 baseurl: ""
 url: "https://lisa-ferosa.github.io"
 
@@ -14,36 +14,73 @@ images:
 
 about:
   - >
-      Write up a short blurb about yourself
+      Experienced in teaching secondary education, lesson planning, collaborating with 
+      a team, and differentiating instructions that best fit my student’s needs to succeed. 
+      Currently a motivated and driven Educator with more than 2 years of experience working 
+      with students in a school setting. Dedicated to promoting the development and growth 
+      of all students and colleagues. Planning to move forward with broadening my experience 
+      in different fields such as Business and Technology, whether it is related to education 
+      or everyday&nbsp;life.
 
 featured:
-  - title: "Show a featured project"
+  - title: "COOP Fellowship Capstone Project"
     images: 
       - "/images/include_images_here_to_scroll_through"
     text: >
-      Give a brief 1 sentence summary of the project
+      Collaborated with teams of 4 to 16 members to collect, clean, and analyze marketing performance data for a
+      telecommunications client, driving data-informed decision&#8209;making.
       
-      * List and highlight features here
+      * Analyzed a dataset of ~13,000 cells to uncover patterns and answer business questions related to creative asset
+      performance, utilizing statistical and exploratory data analysis&nbsp;techniques.
       
-      * And here
-
-      * And also here
+      * Generated actionable insights on ad size and messaging effectiveness across demographic segments by leveraging
+      Tableau for data visualization and Excel (PivotTables, VLOOKUP) for in-depth data&nbsp;manipulation.
 
 work:
-  - company: "Company"
-    role: "Your title"
-    years: "2020-2024"
+  - company: "Fusion Academy"
+    role: "Teacher/Mentor"
+    years: "2023-Present"
     description: >
-      * Basically you can put your resume here
+      * Developed ~30 data-driven lesson plans for 1:1 teaching in secondary education Humanities courses, using
+        pedagogical approaches to construct instructional&nbsp;strategies.
 
-      * With all your bullet points
+      * Supported students with various learning disabilities, such as ADD, ODD, Autism,&nbsp;etc.
 
-      * And any extra info you want to fit here that you cant on your resume
+      * Identified learning obstacles and tailored individualized interventions, optimizing study techniques and retention
+        strategies based on data&nbsp;insights.
 
-education: >
-  <b>Bachelor of Your Degree</b><br>
-  Any Honors or Titles<br>
-  August 2022<br>
+      * Improved student performance by 40% by utilizing personalized instruction for 14&nbsp;students.
+
+  - company: "The Child Center of New York"
+    role: "Group Leader"
+    years: "2021-2023"
+    description: >
+      * Effectively led after-school classrooms with 20 students at a time in 3rd grade while providing an inclusive and
+      welcoming environment for all program students in collaboration with 12 fellow group&nbsp;leaders.
+      
+      * Leveraged teaching skills in communication, presentations, and subject expertise to assist students with homework by
+      creating activities and lesson plans to support their daily&nbsp;curriculum.
+      
+      * Orchestrated and assessed student progress to identify opportunities to enhance tutoring methods by 30% while
+      helping students achieve academic&nbsp;goals.
+
+education:
+  - >
+     <b>Data Analytics Fellow</b><br>
+      * Engaged in a highly selective 16-week fellowship program, acquiring expertise in data cleaning, transformation, analysis, and
+      visualization using Excel, SQL, and Tableau, alongside continuous professional&nbsp;development.<br>
+      * 200 hours of instruction time with a hands-on mastery of data tools, communication training, networking, and client
+      work with actual&nbsp;companies.<br>
+      June 2025<br>
+      
+  - >
+      <b>Bachelor of Arts in&nbsp;History</b><br>
+      Minor in Secondary Education for Social&nbsp;Studies<br>
+      August 2022<br>
+
+certification:
+  - name: "Google Data Analytics Specialization"
+    link: "https://www.coursera.org/account/accomplishments/specialization/0MVA3GL9WT5X"
 
 footer:
   - name: "GitHub"
@@ -53,7 +90,7 @@ footer:
     link: "https://www.linkedin.com/in/lisa-ahmed"
 
   - name: "Resume"
-    link: "/assets/Lisa.Ahmed.Resume..pdf"
+    link: "/assets/Lisa.Ahmed.Resume.pdf"
 
   # - name: "Other Links"
   #   link: "other links here"
