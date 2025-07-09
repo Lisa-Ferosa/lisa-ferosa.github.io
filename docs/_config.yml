@@ -26,7 +26,10 @@ about:
 featured:
   - title: "COOP Fellowship Capstone Project"
     images: 
-      - "/images/coop.png"
+      - "/images/capstone/capstone1.png"
+      - "/images/capstone/capstone2.png"
+      - "/images/capstone/capstone3.png"
+      - "/images/capstone/capstone4.png"
     text: >
       Collaborated with teams of 4 to 16 members to collect, clean, and analyze marketing performance data for a
       telecommunications client, driving data-informed decision&#8209;making.
