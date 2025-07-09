@@ -35,8 +35,15 @@ a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 500;
+  margin: 0.5rem 0.8rem;
 
   &:hover {
+    color: $tree_green;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+
+  .button:hover {
     color: $tree_green;
     transition: 0.4s;
   }
@@ -46,7 +53,7 @@ a {
   border: 0.2rem solid $light_tan;
   border-radius: 0.4rem;
   padding: 0.6rem;
-  margin: 0.5rem 1.2rem;
+  width: 100%;
 
   &:hover {
     background-color: $light_tan;
@@ -158,6 +165,7 @@ li {
   cursor: pointer;
   color: $light_tan !important;
   transition: all 0.2s ease;
+  text-decoration: underline;
 }
 
 .navbar-toggler {
@@ -335,7 +343,7 @@ li {
 
   .col {
     flex: 0 0 auto;
-    width: 15rem; 
+    width: 18rem; 
   }
 }
 
@@ -347,7 +355,7 @@ li {
 
 .footer .col {
   flex: 0 0 auto;
-  width: 8rem; 
+  width: 11rem; 
 }
 
 .footer-img {
